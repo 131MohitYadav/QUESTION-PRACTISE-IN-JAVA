@@ -30,5 +30,10 @@ public class ArrayAscending {
         for ( int i = 0; i<arr.length;i++){
             System.out.print(arr[i] + " ");
         }
+        System.out.println("The first smallest Element: " + arr[0]);
+        System.out.println("The Second smallest Element : " + arr[1]);
+
+        System.out.println("The first Greatest Element: " + arr[arr.length-1]);
+        System.out.println("The Second Greatest Element : " + arr[arr.length-2]);
     }
 }
