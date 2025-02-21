@@ -26,6 +26,25 @@ public class StackPush {
 
     }
 
+    public static  int pop() {
+
+        int v = -1;
+        // STEP 1 -> CHECK UNDER FLOW CONDITION
+        if (isEmpty()) {
+            System.out.println("Stack is Underflow");
+        } else {
+            // STEP 2 -> ASSING NEW VARIABLE TO STORE TOP OF STACK DATA
+             v = STACK[top];
+            // STEP 3 -> DECREASE TOP BY 1
+            top--;
+
+            // STEP 4 -> RETURN THE DELETED ELEMENT
+
+        }
+        return v;
+    }
+
+
     public static void display(){
         if ( isEmpty()){
             System.out.println("Stack is empty");
@@ -33,8 +52,17 @@ public class StackPush {
         else{
             System.out.println("Print Data of the Stack");
             for ( int i = top; i >= 0 ; i--){
-                System.out.println("====>" + STACK[i]);
+                System.out.print("====>" + STACK[i]);
             }
+        }
+    }
+
+    public static  int peek(){
+        if ( !isEmpty()){
+            return STACK[top];
+        }
+        else{
+            return -1;
         }
     }
     public static void main (String args[]){
@@ -44,6 +72,10 @@ public class StackPush {
         push(40);
         push(50);
         display();
+        System.out.println("\n Deleted Element " + pop());
+        System.out.println("\n Deleted Element " + pop());
+        System.out.println("\n Peek Element "+ peek());
+        System.out.println(" Deleted Element " + pop());
     }
 
 }
