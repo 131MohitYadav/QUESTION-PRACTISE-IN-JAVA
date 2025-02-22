@@ -30,12 +30,47 @@ public class QeueEnq {
         }
     }
 
+public static int deq(){
+        int r = 0;
+        // STEP 1 -> TO CHECK UNDERFLOW COONDITION
+    if ( isEmpty()){
+        System.out.println("Queue is underflow ");
+    }
+    else if ( rear == front){
+        // STEP 2 -> Check if Queue contains only one element then front assign into another  variable and front and rear by -1;
+        r = Q[front];
+        front = -1;
+        rear = -1;
+        System.out.println("Deleted last element");
+    }
+    else{
+        // step 3 -> if it contain multiple element then
+        r = Q[front];
+        front++;
+        System.out.println("Delete Element from the Queue");
+    }
+    return r;
+    }
 
+    public static int peek(){
+        int r=-1;
+        if(isEmpty()){
+            System.out.println("Queue is empty");
+        }
+        else{
+            r=Q[front];
+        }
+        return r;
+    }
     public static void main(String args[]){
         Enque(10);
         Enque(20);
         Enque(30);
         Enque(40);
+        System.out.println("Deleted Element from the queue: " + deq());
+        System.out.println("Deleted Element from the queue: " + deq());
+        System.out.println("Front======> " + peek());
+
     }
 
 }
