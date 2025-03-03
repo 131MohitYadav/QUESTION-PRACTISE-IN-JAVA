@@ -5,6 +5,7 @@ public class Node {
 
 
     // make constructor (parameterized constructor)
+
     public  Node(int data){
         this.data = data;
         next = null;
@@ -25,6 +26,7 @@ public class Node {
         Node fourth = new Node(40);
 
         // Head point the first node of Linked list
+
         Node head = first;
         first.next = second;
         second.next = third;
