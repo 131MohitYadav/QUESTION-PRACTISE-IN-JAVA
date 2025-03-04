@@ -19,6 +19,30 @@ public class Node {
             temp = temp.next;
         }
     }
+    public Node addNodeAtStart(Node head, int data){
+        // step 1 : Create a new node
+        Node newNode = new Node(data);
+        // step 2 : Make point NewNode to current node
+        newNode.next = head;
+        // step 3 : update head to newNode
+        head = newNode;
+
+        return head;
+    }
+
+    public void addNodeAtEnd(Node head , int data) {
+        // step 1 : create a new node
+        Node newNode = new Node(data);
+        // step 2 : traverse the list
+        Node temp = head;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        // step 3: Setting the last node next pointer to the new node
+        temp.next = newNode;
+    }
+
+
     public static  void main(String args[]){
         Node first = new  Node(10);
         Node second = new Node(20);
@@ -33,6 +57,13 @@ public class Node {
         third.next = fourth;
 
         System.out.println("\n Print data of singly linked list");
+        head.display(head);
+        head = head.addNodeAtStart(head,5);
+        System.out.println("\n Print data of single linked list after node insert");
+        head.display(head);
+
+        System.out.println("\n Print data of single linked list add node at end");
+        head.addNodeAtEnd(head,50);
         head.display(head);
 
     }
