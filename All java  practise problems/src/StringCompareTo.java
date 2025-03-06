@@ -8,10 +8,14 @@ public class StringCompareTo {
         int x = s3.compareTo(s4);
        // System.out.println(x);
 
+        // compareTo()=> it return always positive and negative and zero
+        System.out.println("Hello".compareTo("Hello"));
+
         if ( x > 0){
             System.out.println(s3 + " is Greater");
 
         }
+
         else if( x < 0){
             System.out.println( s4 + " is Greater");
         }
