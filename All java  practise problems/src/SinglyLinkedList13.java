@@ -19,7 +19,26 @@ class Linked13 {
         head = newNode;
     }
 
-    void insertAtEnd(int data) {
+    void insertAtMiddle(int data) {
+        if (head == null) {
+            head = new Node13(data);
+            return;
+        }
+        Node13 slow = head, fast = head;
+        Node13 prev = null;
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        Node13 newNode = new Node13(data);
+        if (prev != null) {
+            newNode.next = prev.next;
+            prev.next = newNode;
+        }
+    }
+
+    /* void insertAtEnd(int data) {
         Node13 newNode = new Node13(data);
         if (head == null) {
             head = newNode;
@@ -30,7 +49,7 @@ class Linked13 {
             temp = temp.next;
         }
         temp.next = newNode;
-    }
+    } */
 
     void display() {
         Node13 temp = head;
@@ -52,22 +71,18 @@ public class SinglyLinkedList13 {
         for (int i = 1; i <= n; i++) {
             System.out.print("Input data for node " + i + ": ");
             int data = scanner.nextInt();
-            list.insertAtEnd(data);
+            // list.insertAtEnd(data); // Commented out insertAtEnd
+            list.insertAtBeginning(data);
         }
 
-        System.out.println("Data entered in the list are:");
+        System.out.println("\nData entered in the list are:");
         list.display();
 
-//        System.out.print("Input data to insert at the beginning of the list: ");
-//        int newData = scanner.nextInt();
-//        list.insertAtBeginning(newData);
-
-        System.out.print("Input data to insert at the end of the list: ");
+        System.out.print("\nInput data to insert at the middle of the list: ");
         int newData = scanner.nextInt();
-        list.insertAtEnd(newData);
+        list.insertAtMiddle(newData);
 
-
-        System.out.println("Data after inserted in the list are:");
+        System.out.println("\nData after inserted in the list are:");
         list.display();
     }
 }
