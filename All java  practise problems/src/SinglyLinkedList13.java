@@ -58,9 +58,14 @@ public class SinglyLinkedList13 {
         System.out.println("Data entered in the list are:");
         list.display();
 
-        System.out.print("Input data to insert at the beginning of the list: ");
+//        System.out.print("Input data to insert at the beginning of the list: ");
+//        int newData = scanner.nextInt();
+//        list.insertAtBeginning(newData);
+
+        System.out.print("Input data to insert at the end of the list: ");
         int newData = scanner.nextInt();
-        list.insertAtBeginning(newData);
+        list.insertAtEnd(newData);
+
 
         System.out.println("Data after inserted in the list are:");
         list.display();
