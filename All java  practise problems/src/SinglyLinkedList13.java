@@ -79,6 +79,17 @@ class Linked13 {
         temp.next = null;
     }
 
+    boolean search(int key) {
+        Node13 temp = head;
+        while (temp != null) {
+            if (temp.data == key) {
+                return true;
+            }
+            temp = temp.next;
+        }
+        return false;
+    }
+
     void display() {
         Node13 temp = head;
         while (temp != null) {
@@ -114,10 +125,18 @@ public class SinglyLinkedList13 {
 //        list.deleteMiddleNode();
 //        System.out.println("\nData after middle node deletion:");
 //        list.display();
+//
+//        System.out.println("\nDeleting the last node...");
+//        list.deleteLastNode();
+//        System.out.println("\nData after last node deletion:");
+//        list.display();
 
-        System.out.println("\nDeleting the last node...");
-        list.deleteLastNode();
-        System.out.println("\nData after last node deletion:");
-        list.display();
+        System.out.print("\nEnter an element to search: ");
+        int searchKey = scanner.nextInt();
+        if (list.search(searchKey)) {
+            System.out.println("Element found in the list.");
+        } else {
+            System.out.println("Element not found in the list.");
+        }
     }
 }
