@@ -38,18 +38,13 @@ class Linked13 {
         }
     }
 
-    /* void insertAtEnd(int data) {
-        Node13 newNode = new Node13(data);
+    void deleteFirstNode() {
         if (head == null) {
-            head = newNode;
+            System.out.println("List is already empty.");
             return;
         }
-        Node13 temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = newNode;
-    } */
+        head = head.next;
+    }
 
     void display() {
         Node13 temp = head;
@@ -71,18 +66,16 @@ public class SinglyLinkedList13 {
         for (int i = 1; i <= n; i++) {
             System.out.print("Input data for node " + i + ": ");
             int data = scanner.nextInt();
-            // list.insertAtEnd(data); // Commented out insertAtEnd
             list.insertAtBeginning(data);
         }
 
         System.out.println("\nData entered in the list are:");
         list.display();
 
-        System.out.print("\nInput data to insert at the middle of the list: ");
-        int newData = scanner.nextInt();
-        list.insertAtMiddle(newData);
+        System.out.println("\nDeleting the first node...");
+        list.deleteFirstNode();
 
-        System.out.println("\nData after inserted in the list are:");
+        System.out.println("\nData after deletion:");
         list.display();
     }
 }
