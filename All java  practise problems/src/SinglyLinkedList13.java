@@ -105,15 +105,15 @@ public class SinglyLinkedList13 {
         System.out.println("\nData entered in the list are:");
         list.display();
 
-        System.out.println("\nDeleting the first node...");
-        list.deleteFirstNode();
-        System.out.println("\nData after first node deletion:");
-        list.display();
-
-        System.out.println("\nDeleting the middle node...");
-        list.deleteMiddleNode();
-        System.out.println("\nData after middle node deletion:");
-        list.display();
+//        System.out.println("\nDeleting the first node...");
+//        list.deleteFirstNode();
+//        System.out.println("\nData after first node deletion:");
+//        list.display();
+//
+//        System.out.println("\nDeleting the middle node...");
+//        list.deleteMiddleNode();
+//        System.out.println("\nData after middle node deletion:");
+//        list.display();
 
         System.out.println("\nDeleting the last node...");
         list.deleteLastNode();
