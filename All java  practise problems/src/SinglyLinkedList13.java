@@ -46,6 +46,23 @@ class Linked13 {
         head = head.next;
     }
 
+    void deleteMiddleNode() {
+        if (head == null || head.next == null) {
+            System.out.println("List is too small to delete the middle node.");
+            return;
+        }
+        Node13 slow = head, fast = head;
+        Node13 prev = null;
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        if (prev != null) {
+            prev.next = slow.next;
+        }
+    }
+
     void display() {
         Node13 temp = head;
         while (temp != null) {
@@ -72,10 +89,14 @@ public class SinglyLinkedList13 {
         System.out.println("\nData entered in the list are:");
         list.display();
 
-        System.out.println("\nDeleting the first node...");
-        list.deleteFirstNode();
+//        System.out.println("\nDeleting the first node...");
+//        list.deleteFirstNode();
+//        System.out.println("\nData after first node deletion:");
+//        list.display();
 
-        System.out.println("\nData after deletion:");
+        System.out.println("\nDeleting the middle node...");
+        list.deleteMiddleNode();
+        System.out.println("\nData after middle node deletion:");
         list.display();
     }
 }
