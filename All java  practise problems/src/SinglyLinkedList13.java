@@ -63,6 +63,22 @@ class Linked13 {
         }
     }
 
+    void deleteLastNode() {
+        if (head == null) {
+            System.out.println("List is already empty.");
+            return;
+        }
+        if (head.next == null) {
+            head = null;
+            return;
+        }
+        Node13 temp = head;
+        while (temp.next.next != null) {
+            temp = temp.next;
+        }
+        temp.next = null;
+    }
+
     void display() {
         Node13 temp = head;
         while (temp != null) {
@@ -89,14 +105,19 @@ public class SinglyLinkedList13 {
         System.out.println("\nData entered in the list are:");
         list.display();
 
-//        System.out.println("\nDeleting the first node...");
-//        list.deleteFirstNode();
-//        System.out.println("\nData after first node deletion:");
-//        list.display();
+        System.out.println("\nDeleting the first node...");
+        list.deleteFirstNode();
+        System.out.println("\nData after first node deletion:");
+        list.display();
 
         System.out.println("\nDeleting the middle node...");
         list.deleteMiddleNode();
         System.out.println("\nData after middle node deletion:");
+        list.display();
+
+        System.out.println("\nDeleting the last node...");
+        list.deleteLastNode();
+        System.out.println("\nData after last node deletion:");
         list.display();
     }
 }
