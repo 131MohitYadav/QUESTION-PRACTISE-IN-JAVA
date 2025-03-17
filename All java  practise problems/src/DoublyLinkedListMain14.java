@@ -136,12 +136,12 @@ public class DoublyLinkedListMain14 {
             list.insertAtEnd(data);
         }
 
-        System.out.println("\nData entered in the list:");
-        list.display();
-
-//        System.out.println("\nInserting at the beginning...");
-//        list.insertAtBeginning(100);
+//        System.out.println("\nData entered in the list:");
 //        list.display();
+
+        System.out.println("\nInserting at the beginning...");
+        list.insertAtBeginning(100);
+        list.display();
 //
 //        System.out.println("\nInserting at the middle...");
 //        list.insertAtMiddle(200);
