@@ -115,10 +115,10 @@ class DoublyLinkedList14 {
     void display() {
         Node14 temp = head;
         while (temp != null) {
-            System.out.print(temp.data + " <-> ");
+            System.out.print("<--> " +temp.data );
             temp = temp.next;
         }
-        System.out.println("NULL");
+       // System.out.println("NULL");
     }
 }
 
@@ -139,32 +139,32 @@ public class DoublyLinkedListMain14 {
         System.out.println("\nData entered in the list:");
         list.display();
 
-        System.out.println("\nInserting at the beginning...");
-        list.insertAtBeginning(100);
-        list.display();
-
-        System.out.println("\nInserting at the middle...");
-        list.insertAtMiddle(200);
-        list.display();
-
-        System.out.println("\nDeleting the first node...");
-        list.deleteFirstNode();
-        list.display();
-
-        System.out.println("\nDeleting the middle node...");
-        list.deleteMiddleNode();
-        list.display();
-
-        System.out.println("\nDeleting the last node...");
-        list.deleteLastNode();
-        list.display();
-
-        System.out.print("\nEnter an element to search: ");
-        int searchKey = scanner.nextInt();
-        if (list.search(searchKey)) {
-            System.out.println("Element found in the list.");
-        } else {
-            System.out.println("Element not found in the list.");
-        }
+//        System.out.println("\nInserting at the beginning...");
+//        list.insertAtBeginning(100);
+//        list.display();
+//
+//        System.out.println("\nInserting at the middle...");
+//        list.insertAtMiddle(200);
+//        list.display();
+//
+//        System.out.println("\nDeleting the first node...");
+//        list.deleteFirstNode();
+//        list.display();
+//
+//        System.out.println("\nDeleting the middle node...");
+//        list.deleteMiddleNode();
+//        list.display();
+//
+//        System.out.println("\nDeleting the last node...");
+//        list.deleteLastNode();
+//        list.display();
+//
+//        System.out.print("\nEnter an element to search: ");
+//        int searchKey = scanner.nextInt();
+//        if (list.search(searchKey)) {
+//            System.out.println("Element found in the list.");
+//        } else {
+//            System.out.println("Element not found in the list.");
+//        }
     }
 }
