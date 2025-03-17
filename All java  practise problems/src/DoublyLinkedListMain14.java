@@ -11,7 +11,7 @@ class Node14 {
     }
 }
 
- class DoublyLinkedList14 {
+class DoublyLinkedList14 {
     Node14 head, tail;
 
     void insertAtBeginning(int data) {
