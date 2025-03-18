@@ -139,9 +139,9 @@ public class DoublyLinkedListMain14 {
 //        System.out.println("\nData entered in the list:");
 //        list.display();
 
-        System.out.println("\nInserting at the beginning...");
-        list.insertAtBeginning(100);
-        list.display();
+//        System.out.println("\nInserting at the beginning...");
+//        list.insertAtBeginning(100);
+//        list.display();
 //
 //        System.out.println("\nInserting at the middle...");
 //        list.insertAtMiddle(200);
@@ -155,9 +155,9 @@ public class DoublyLinkedListMain14 {
 //        list.deleteMiddleNode();
 //        list.display();
 //
-//        System.out.println("\nDeleting the last node...");
-//        list.deleteLastNode();
-//        list.display();
+        System.out.println("\nDeleting the last node...");
+        list.deleteLastNode();
+        list.display();
 //
 //        System.out.print("\nEnter an element to search: ");
 //        int searchKey = scanner.nextInt();
