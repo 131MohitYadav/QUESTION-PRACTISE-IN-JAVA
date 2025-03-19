@@ -6,5 +6,6 @@ public class StringlastIndexOf {
         // lastindexof -> it give integer value
         System.out.println(s1.lastIndexOf("av"));
         System.out.println(s2.lastIndexOf("wel"));
+        System.out.println(s1.lastIndexOf("e",3));
     }
 }
