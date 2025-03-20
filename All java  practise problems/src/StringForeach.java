@@ -16,6 +16,8 @@ public class StringForeach {
 //            System.out.print(d);
 //        }
 
+        // write a java pprogram to print sum and average  by using for each loop //
+
         int arr [] = {10,30,40,50,13};
 
         int sum = 0;
