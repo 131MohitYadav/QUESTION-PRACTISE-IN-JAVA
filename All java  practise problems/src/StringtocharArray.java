@@ -25,7 +25,7 @@ public class StringtocharArray {
         String s1 = sc.nextLine();
 
         String r="";
-        for(int x : s1.toCharArray()){
+        for(int x : s1.toCharArray()){ // [m , o , h , t]
 
             // convert uppercase to lowercase
             //  if ( x >= 'A' && x <= 'Z')
