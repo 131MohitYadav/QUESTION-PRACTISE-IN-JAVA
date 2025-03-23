@@ -1,5 +1,3 @@
-import java.util.*;
-
 class StackNode {
     int data;
     StackNode next;
@@ -54,7 +52,7 @@ class Stack {
     }
 }
 
-public class StackLinkedList {
+public class StackLinkedList1 {
     public static void main(String[] args) {
         Stack stack = new Stack();
         stack.push(1);
