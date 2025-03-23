@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class checkTitlecase {
+public class CheckTogglecase {
 
     public static void main(String args[]){
 
