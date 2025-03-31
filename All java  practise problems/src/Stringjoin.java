@@ -10,7 +10,8 @@ public class Stringjoin {
         String s = sc.nextLine();
 
         String arr[] = s.split(" ");
-        String r = String.join("|" , arr[0] , arr[1] , arr[2]);
+        String r = String.join(":" , arr);
+//        String r = String.join("|" , arr[0] , arr[1] , arr[2]);
         System.out.println(r);
     }
 
