@@ -12,6 +12,9 @@ public class Stringjoin {
         System.out.println("Enter String2 : ");
         String a = sc.nextLine();
 
+        System.out.println("Enter String3: ");
+        String b = sc.nextLine();
+
         String arr[] = s.split(" ");
         String arr1[] = a.split(" ");
         String r = String.join(":" , arr);
