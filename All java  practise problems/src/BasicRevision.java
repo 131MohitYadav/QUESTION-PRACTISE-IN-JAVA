@@ -15,6 +15,9 @@ public class BasicRevision {
         System.out.println(n1);
         System.out.println(n2);
         System.out.println(n3);
+        System.out.printf( "Number 1:  %d" , n1);
+        System.out.printf( "Number 2:  %d" , n2);
+        System.out.printf( "Addition:  %d" , n3);
         System.out.println("Hello world");
         System.out.printf("Hello Rohit");
         System.out.print("Hello Mohit");
