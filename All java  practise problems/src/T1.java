@@ -1,11 +1,12 @@
 //
 
 // EXAMPLE 1 -> MULTITHREADNING USING EXTENDS THREAD
+// Example -> getName and setName of thread
 public class T1  implements  Runnable{
 
     public void run(){
         for ( int i = 1; i<=5; i++){
-            System.out.println("Child Thread: " + i);
+            System.out.println("Child Thread: " + Thread.currentThread());
         }
     }
 
@@ -19,12 +20,14 @@ public class T1  implements  Runnable{
         Thread t = new Thread(new T1());
         // Override run method
 
+        t.setName("Cybrom Thread");
+
         // create object of t1
-        T1 obj = new T1();
-        obj.start();
-//        t.start();
+//        T1 obj = new T1();
+//        obj.start();
+        t.start();
         for ( int i = 1; i <= 5; i++){
-            System.out.println("Main Thread: ");
+            System.out.println("Main Thread: " + Thread.currentThread());
         }
     }
 }
