@@ -1,7 +1,3 @@
-
-import  java.util.logging.Level;
-import  java.util.logging.Logger;
-
 public class Display {
 
     public  synchronized void wish(String name)  {
