@@ -9,11 +9,20 @@ public class T1  implements  Runnable{
         }
     }
 
+    public void start(){
+        System.out.println("This is Start Method Overrdider");
+    }
+
 
     public static void main(String args[]){
 //        T1 t = new T1();
         Thread t = new Thread(new T1());
-        t.start();
+        // Override run method
+
+        // create object of t1
+        T1 obj = new T1();
+        obj.start();
+//        t.start();
         for ( int i = 1; i <= 5; i++){
             System.out.println("Main Thread: ");
         }
