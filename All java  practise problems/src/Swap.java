@@ -7,14 +7,13 @@ public class Swap {
         int a , b , c;
 
         a = 23;
-        b= 24;
-        c = 27;
+        b= 26;
 
         c = a;
+        a = b;
         b = c;
-        c = b;
         System.out.println("A number; " + a);
         System.out.println("B number : " + b);
-        System.out.println("C number: " + c);
+
     }
 }
