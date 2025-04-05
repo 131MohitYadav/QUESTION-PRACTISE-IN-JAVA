@@ -5,12 +5,15 @@ public class SwapWithout {
         a = 10;
         b = 3;
 
-        System.out.println("Befor Swapping " + a);
-        System.out.println(" Befor swaping :  " + b);
+        System.out.println("Befor Swapping A:  " + a);
+        System.out.println(" Befor swaping B:  " + b);
 
-        a = a + b; // 10 + 3  13
-        b = a - b; // 10 - 3 = 7
-        a = a - b; // 10 - 3 =
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("After swapping A: " + a);
+        System.out.println(" After swapping B: " + b);
     }
 }
 
