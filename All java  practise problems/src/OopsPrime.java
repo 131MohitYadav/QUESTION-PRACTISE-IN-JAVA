@@ -32,5 +32,6 @@ public class OopsPrime {
         // create new object of class
         OopsPrime p = new OopsPrime();
         p.Prime();
+        p.Prime();
     }
 }
