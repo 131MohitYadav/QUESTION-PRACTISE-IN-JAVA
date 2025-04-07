@@ -7,7 +7,7 @@ public class Array4 {
 
         Scanner sc = new Scanner(System.in);
 
-        int arr[] = new int[5];
+        int arr[] = new int[6];
 
         System.out.println("Enter the Element at Index 0: ");
          arr[0] = sc.nextInt();
@@ -21,6 +21,10 @@ public class Array4 {
         System.out.println("Enter the Element at Index 3: ");
          arr[3] = sc.nextInt();
 
+        System.out.println("Enter the Element at Index 3: ");
+        arr[4] = sc.nextInt();
+
+
         System.out.println("######################################");
 
         System.out.println(arr.length);
@@ -29,6 +33,7 @@ public class Array4 {
         System.out.println("Element at the Index 0: " + arr[1]);
         System.out.println("Element at the Index 0: " + arr[2]);
         System.out.println("Element at the Index 0: " + arr[3]);
+        System.out.println("Element at the Index 0: " + arr[4]);
 
 
 
