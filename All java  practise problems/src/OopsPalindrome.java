@@ -8,19 +8,19 @@ public class OopsPalindrome {
      void Pali( int n){
 
         // declare a variable
-         int m = n;
+         int m = n; // 131
          int res = 0;
 
 
 
          // operation
-         while( n != 0){ // 131
-             int r = n % 10;
-             res = res * 10 + r;
-             n = n / 10;
+         while( n != 0){
+             int r =  n % 10; // 1
+             res = res * 10 + r; // 1
+             n = n / 10; // 13
          }
 
-         if ( m == n)
+         if ( m == res)
              System.out.println("Palindrome Number");
 
          else
