@@ -4,6 +4,7 @@ public class OopsRectangle {
     // instance variable or member data  or state
     int l;
     int b;
+    double r;
 
     void acceptData(){
 
@@ -12,10 +13,13 @@ public class OopsRectangle {
         l = sc.nextInt();
         System.out.println("enter breadth: ");
         b = sc.nextInt();
+        System.out.println("enter radius: ");
+        r = sc.nextDouble();
     }
     void  showData(){
         System.out.println("Length is: " + l);
         System.out.println("Breadth is: " + b);
+        System.out.println("Radius is; " + r);
 
     }
     void getArea(){
@@ -25,6 +29,12 @@ public class OopsRectangle {
         System.out.println("Perimeter: " + 2 * ( l + b));
     }
 
+    void  getCir(){
+        System.out.println("Circumference of circle; " + 2 * 3.14 * r);
+    }
+    void getACir(){
+        System.out.println("Area of circle: " + 3.14 * r * r);
+    }
     // member function , instance method
     public static void main(String args[]){
 
@@ -34,6 +44,8 @@ public class OopsRectangle {
         or.showData();
         or.getArea();
         or.getPira();
+        or.getCir();
+        or.getACir();
     }
 
 }
