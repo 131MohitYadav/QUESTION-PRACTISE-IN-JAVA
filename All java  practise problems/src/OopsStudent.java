@@ -13,7 +13,7 @@ public class OopsStudent {
     int totalmarks;
     double percentage;
 
-    void acceptData(){
+    void getData(){
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER YOUR NAME: ");
         name = sc.nextLine();
@@ -42,8 +42,20 @@ public class OopsStudent {
         System.out.println("English: " + e);
 
     }
-    void getTotalmarks(){
+    void getTotalMarks(){
         totalmarks = p + c + m + h + e;
         System.out.println("Total Marks: " + totalmarks);
+    }
+    void  getTotalPer(){
+        percentage = totalmarks / 5.0f;
+        System.out.println("Percentange: " + percentage);
+    }
+    public static void main(String args[]){
+        OopsStudent os = new OopsStudent();
+
+        os.getData();
+        os.showData();
+        os.getTotalMarks();
+        os.getTotalPer();
     }
 }
