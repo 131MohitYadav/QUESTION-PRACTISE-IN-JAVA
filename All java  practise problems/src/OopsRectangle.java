@@ -30,7 +30,7 @@ public class OopsRectangle {
     }
 
     void  getCir(){
-        System.out.println("Circumference of circle; " + 2 * 3.14 * r);
+        System.out.println("Circumference of circle: " + 2 * 3.14 * r);
     }
     void getACir(){
         System.out.println("Area of circle: " + 3.14 * r * r);
