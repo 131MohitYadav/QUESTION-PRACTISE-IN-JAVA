@@ -17,6 +17,6 @@ public class StaticK {
         StaticK sk2 = new StaticK();
         StaticK sk3 = new StaticK();
         StaticK sk4 = new StaticK();
-        System.out.println(sk3.count);
+        System.out.println(sk3 .count);
     }
 }
