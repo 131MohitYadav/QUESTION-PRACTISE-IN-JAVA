@@ -17,6 +17,7 @@ public class Point5 {
 
     public static void main(String args[]){
 
+
         Point5 p1 = new Point5();
         Point5 p2 = new Point5();
         Point5 p3 = new Point5();
@@ -32,6 +33,7 @@ public class Point5 {
         System.out.println("static method is called ......");
         System.out.println("No. of object is created : " + p1.getCtr());
         System.out.println("No. of object is created : " + Point5.getCtr());
+        System.out.println("No. of obj is created : " + getCtr());
 
     }
 }
