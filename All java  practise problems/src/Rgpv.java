@@ -54,6 +54,7 @@ class  College extends Rgpv{
         r.copyCheck();
 
 
+        System.out.println("<----------------------------------->");
         // for calling  college class method  or we  create object of child class kiyu ki vo abstract nhi hai
 
         College c = new College();
