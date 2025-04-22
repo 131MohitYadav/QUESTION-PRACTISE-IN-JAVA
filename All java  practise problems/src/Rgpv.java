@@ -53,6 +53,9 @@ class  College extends Rgpv{
 
     }
 
+    public void clga(){
+        System.out.println("This is college attendance");
+    }
     public static void main(String args[]){
         Rgpv r = new College(); // cannot create object of abstract class but child
         // can take reference of abstract class
@@ -69,6 +72,8 @@ class  College extends Rgpv{
         c.lab();
         c.copyCheck();
         c.staff();
+        c.Attendance();
+        c.clga();
 
     }
 }
