@@ -25,6 +25,7 @@ abstract  class Rgpv{
     }
     public abstract void lab();
     public abstract void cctv();
+    public abstract void Attendance();
     public void copyCheck(){
         System.out.println("This is Copy check method of Rgpv class and this is non abstract method");
     }
