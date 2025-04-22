@@ -47,6 +47,12 @@ class  College extends Rgpv{
         System.out.println("This is college staff method");
     }
 
+
+    public void Attendance() {
+        System.out.println("This is rgpv attendance");
+
+    }
+
     public static void main(String args[]){
         Rgpv r = new College(); // cannot create object of abstract class but child
         // can take reference of abstract class
