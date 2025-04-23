@@ -13,7 +13,7 @@ public class Test10 implements IA,IB {
 
     public void a( int c , int d){
         int e = c + d;
-
+        System.out.println("sum of IA : " + e);
         System.out.println("This is IA interface method");
     }
     public void b(){
