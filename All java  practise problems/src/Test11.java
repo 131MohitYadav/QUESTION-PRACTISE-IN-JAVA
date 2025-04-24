@@ -40,6 +40,9 @@ public class Test11 implements IC {
 
         Test11 t = new Test11();
         t.a();
+        t.c();
+        t.b();
+        t.hello();
 
     }
 
