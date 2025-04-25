@@ -10,7 +10,10 @@ interface  IB1{
     void b();
 
 }
-interface  IC extends IA1,IB1{
+interface  ID{
+    void add();
+}
+interface  IC extends IA1,IB1,ID{
     void c();
 }
 
@@ -32,6 +35,11 @@ public class Test11 implements IC {
         System.out.println("Hello Mohit Yadav");
 
     }
+    public void add(){
+        int a = 23;
+        int b = 23;
+        System.out.println("Sum is: " + ( a + b));
+    }
 
     public  static void main(String args[]){
 
@@ -43,6 +51,7 @@ public class Test11 implements IC {
         t.c();
         t.b();
         t.hello();
+        t.add();
 
     }
 
