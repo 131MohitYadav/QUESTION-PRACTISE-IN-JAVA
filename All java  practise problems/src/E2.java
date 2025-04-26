@@ -11,7 +11,7 @@ public class E2 {
         x = 4.2f;
         y = 6.2f;
         a = 10;
-        b = 2;
+        b = 0;
         System.out.println("Before try Exception");
         try{
             System.out.println("Enter try");
@@ -21,6 +21,7 @@ public class E2 {
             System.out.println("Exit try");
         }catch(ArithmeticException ae){
             System.out.println("This is Catch block");
+            System.out.println("Denominator should not be zero");
         }
         System.out.println(c);
         System.out.println("Hello..Bye");
