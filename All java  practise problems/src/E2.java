@@ -9,14 +9,14 @@ public class E2 {
         int a, b , c = 0;
         float x , y , z = 0;
         x = 4.2f;
-        y = 3.2f;
+        y = 6.2f;
         a = 10;
         b = 2;
         System.out.println("Before try Exception");
         try{
             System.out.println("Enter try");
             c = a/b;
-             z = x + y;
+             z = x / y;
 
             System.out.println("Exit try");
         }catch(ArithmeticException ae){
