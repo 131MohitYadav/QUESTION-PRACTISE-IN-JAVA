@@ -6,7 +6,7 @@ public class E2 {
 
 
         System.out.println("Hello...hi");
-        int a, b , c = 0;
+        int a,b,e,d = 0;
         float x , y , z = 0;
         x = 4.2f;
         y = 6.2f;
@@ -16,8 +16,8 @@ public class E2 {
         System.out.println("Before try Exception");
         try{
             System.out.println("Enter try");
-            c = a/b;
-            c = a * b;
+            d= a / b;
+            e= a * b;
              z = x / y;
 
             System.out.println("Exit try");
@@ -25,7 +25,8 @@ public class E2 {
             System.out.println("This is Catch block");
             System.out.println("Denominator should not be zero");
         }
-        System.out.println(c);
+        System.out.println("Division: " + d);
+        System.out.println("Multi: " + );
         System.out.println("Hello..Bye");
         System.out.println(z);
 
