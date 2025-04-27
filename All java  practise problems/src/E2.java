@@ -12,14 +12,16 @@ public class E2 {
         y = 6.2f;
         a = 10;
         b = 0;
+
         System.out.println("Before try Exception");
         try{
             System.out.println("Enter try");
             c = a/b;
+            c = a * b;
              z = x / y;
 
             System.out.println("Exit try");
-        }catch(ArithmeticException ae){
+        }catch(ArithmeticException aefd){
             System.out.println("This is Catch block");
             System.out.println("Denominator should not be zero");
         }
