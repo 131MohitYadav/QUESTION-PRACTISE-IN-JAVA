@@ -7,7 +7,8 @@ public class E3 {
 
         int a , b , c = 0;
  a = 10;
-  b = 2;
+//  b = 2;
+        b = 0;
         System.out.println("before exception..");
         try{
 
