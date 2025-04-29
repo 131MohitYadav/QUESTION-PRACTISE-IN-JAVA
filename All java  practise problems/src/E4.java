@@ -9,6 +9,7 @@ public class E4 {
         int n = 0;
         try{
             n = Integer.parseInt(args[0]);
+            
 
         } catch(ArrayIndexOutOfBoundsException ae){
             System.out.println("Please enter at east on ARgument from command line");
