@@ -14,7 +14,8 @@ public class E4 {
             System.out.println("Please enter at east on ARgument from command line");
         }
         catch (NumberFormatException ne){
-            System.out.println();
+            System.out.println("Please enter a numeric value");
         }
+        System.out.println("Square is: " + Math.pow(n,2));
     }
 }
