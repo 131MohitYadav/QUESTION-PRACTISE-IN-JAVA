@@ -38,6 +38,25 @@ public static  void push(int data){
     System.out.println("DAta Insert into the stack is success");
 }
 
+    public static int pop(){
+        // check underflow condtion
+        int v = -1;
+        if ( isEmpty()){
+            System.out.println("Stack is underflow");
+        }
+        else{
+            // assign data into another variable
+            v = STACK[top];
+
+            // decreaes top by 1m
+            top--;
+
+        }
+
+        // return deleted element
+        return v;
+    }
+
 public static void display(){
     if(isEmpty()){
         System.out.println("Stack is empty");
@@ -55,6 +74,8 @@ public static void main(String args[]){
     push(23);
     push(40);
     push(32);
-    display();
+
+    System.out.println("deleted element: " + pop());
+
 }
 }

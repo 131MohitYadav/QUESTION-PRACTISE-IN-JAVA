@@ -47,9 +47,16 @@ public class StackPop {
         if ( isEmpty()){
             System.out.println("Stack is emppty");
         }
+        else{
+            System.out.println("Print  data of the stack");
+            for ( int i = top ; i >= 0 ; i--){
+                System.out.println("--->" + STACK[i]);
+            }
+        }
     }
 
     public static void main(String args[]){
+
 
     }
 }
