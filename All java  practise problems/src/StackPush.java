@@ -64,7 +64,7 @@ public static void display(){
     else {
         System.out.println("Prind data of the stack");
         for ( int i=  top ; i >= 0 ; i--){
-            System.out.print("==>" + STACK[i]);
+            System.out.println("==>" + STACK[i]);
         }
     }
 }
@@ -74,8 +74,11 @@ public static void main(String args[]){
     push(23);
     push(40);
     push(32);
-
+display();
     System.out.println("deleted element: " + pop());
+    System.out.println("deleted element: " + pop());
+    System.out.println("Top Element of the Stack: ");
+
 
 }
 }
