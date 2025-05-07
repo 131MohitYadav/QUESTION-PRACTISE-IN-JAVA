@@ -18,5 +18,15 @@ public class QeueDemo {
         if(isFull()){
             System.out.println("Queue is overflow");
         }
+
+        // step 3 -> check if queue is empty increase front and rear by 1;
+        if ( isEmpty()){
+            System.out.println("Queue is empty");
+            front++;
+            rear++;
+        }
+        else {
+            rear++;
+        }
     }
 }
