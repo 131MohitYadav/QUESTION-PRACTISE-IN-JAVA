@@ -15,5 +15,8 @@ public class QeueDemo {
 
     public int enq(int data){
         // step 1 -> check overflow condition
+        if(isFull()){
+            System.out.println("Queue is overflow");
+        }
     }
 }
