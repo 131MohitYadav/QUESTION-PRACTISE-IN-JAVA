@@ -34,5 +34,16 @@ public class QeueDemo {
             System.out.println("DAta insert into queue");
         }
 
+        public static void display(){
+            if ( isEmpty()){
+                System.out.println("Queue is empty");
+            }
+            else{
+                System.out.println("Elements of the Queue");
+            }
+        }
+
     }
+
+
 }
