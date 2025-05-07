@@ -24,13 +24,15 @@ public class QeueDemo {
             System.out.println("Queue is empty");
             front++;
             rear++;
+            Q[rear] = data;
+            System.out.println("insert first element in queue");
 
         } else {
             // if queue is not empety than rear increase by 1
             rear++;
             // step 4 -> insert data into queue
             Q[rear] = data;
-            System.out.println("DAta insert into queue");
+            System.out.println("DAta insert into after first elemnt in queue");
         }
     }
         public static void display(){
@@ -40,7 +42,7 @@ public class QeueDemo {
             else{
                 System.out.println("Elements of the Queue");
                 for ( int i = front; i<= rear; i++){
-                    System.out.println("-->" + Q[i]);
+                    System.out.print("-->" + Q[i]);
 
                 }
             }
