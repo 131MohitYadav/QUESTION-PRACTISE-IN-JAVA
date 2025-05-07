@@ -13,7 +13,7 @@ public class QeueDemo {
 
     // enque operation peform
 
-    public int enq(int data){
+    public static void enq(int data){
         // step 1 -> check overflow condition
         if(isFull()){
             System.out.println("Queue is overflow");
@@ -24,9 +24,15 @@ public class QeueDemo {
             System.out.println("Queue is empty");
             front++;
             rear++;
+
         }
-        else {
+        else{
+            // if queue is not empety than rear increase by 1
             rear++;
+            // step 4 -> insert data into queue
+            Q[rear] = data;
+            System.out.println("DAta insert into queue");
         }
+
     }
 }
