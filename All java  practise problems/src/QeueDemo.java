@@ -35,6 +35,34 @@ public class QeueDemo {
             System.out.println("DAta insert into after first elemnt in queue");
         }
     }
+
+
+    public static  int deq(){
+        int r = 0;
+        // step 1 -> first check underflow condition
+        if (isEmpty()){
+            System.out.println("Queue is empty");
+        }
+        else if( rear == front){
+            // step 2 -> to chek queue contains only one element so value of front assign into another varible then front are rea is -1
+            r = Q[front];
+            front = -1;
+            rear = -1;
+            System.out.println("deleted last element");
+
+        }
+        else{
+
+            // step 3-> if queeu contains more than one element then increase front by 1
+            r = Q[front];
+            front++;
+            System.out.println("Deleted element from the queue");
+
+        }
+        return  r;
+    }
+
+
         public static void display(){
             if ( isEmpty()){
                 System.out.println("Queue is empty");
@@ -47,6 +75,17 @@ public class QeueDemo {
                 }
             }
         }
+        public static  int peek(){
+        int r = -1;
+        if(isEmpty()){
+            System.out.println("Queeue is emepty");
+
+        }
+        else{
+            r = Q[front];
+        }
+        return  r;
+        }
 
         public static void main (String args[]){
 
@@ -54,7 +93,12 @@ public class QeueDemo {
         enq(20);
         enq(30);
         enq(40);
-        display();
+            display();
+            System.out.println("deleted elemtne fro the quee: " + deq());
+            System.out.println("deleted elemtne fro the quee: " + deq());
+            System.out.println("Front ------> Element " + peek());
+            System.out.println("deleted elemtne fro the quee: " + deq());
+
         }
 
 
