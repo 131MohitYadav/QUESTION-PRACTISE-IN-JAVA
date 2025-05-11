@@ -97,7 +97,7 @@ public class QeueDemo {
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("Front ------> Element " + peek());
-            System.out.println("deleted elemtne fro the quee: " + deq());
+            System.out.println("deleted element from the queue: " + deq());
 
         }
 
