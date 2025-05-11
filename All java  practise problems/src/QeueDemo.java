@@ -32,7 +32,7 @@ public class QeueDemo {
             rear++;
             // step 4 -> insert data into queue
             Q[rear] = data;
-            System.out.println("DAta insert into after first elemnt in queue");
+            System.out.println("Data insert into after first element in queue");
         }
     }
 
