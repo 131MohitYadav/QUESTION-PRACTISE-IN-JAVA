@@ -25,7 +25,7 @@ public class QeueDemo {
             front++;
             rear++;
             Q[rear] = data;
-            System.out.println("insert first element in queue");
+            System.out.println("insert first data in queue");
 
         } else {
             // if queue is not empety than rear increase by 1
