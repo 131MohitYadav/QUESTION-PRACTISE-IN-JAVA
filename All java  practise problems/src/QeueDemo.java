@@ -99,6 +99,7 @@ public class QeueDemo {
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("Front ------> Element " + peek());
             System.out.println("deleted element from the queue: " + deq());
+            System.out.println("This is a stack and Queue");
 
         }
 
