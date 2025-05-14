@@ -93,6 +93,9 @@ public class QeueDemo {
         enq(20);
         enq(30);
         enq(40);
+        enq(50);
+        enq(60);
+        enq();
 
             display();
             System.out.println("deleted element from the queue: " + deq());
