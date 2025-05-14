@@ -95,12 +95,13 @@ public class QeueDemo {
         enq(40);
         enq(50);
         enq(60);
-        enq();
+        enq(70);
 
             display();
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("Front ------> Element " + peek());
+            System.out.println("deleted element from the queue: " + deq());
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("This is a Stack and Queue");
 
