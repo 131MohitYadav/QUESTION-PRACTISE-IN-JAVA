@@ -12,6 +12,7 @@ public class ArraylistMaximum {
         list.add(9);
         list.add(3);
         list.add(6);
+        list.add(7);
 
         int max = Integer.MIN_VALUE;
         for(int i=0; i<list.size(); i++){
