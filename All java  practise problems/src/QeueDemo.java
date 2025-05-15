@@ -98,7 +98,7 @@ public class QeueDemo {
         enq(70);
 
             display();
-            System.out.println("hello maosfds");
+
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("deleted element from the queue: " + deq());
             System.out.println("Front ------> Element " + peek());
