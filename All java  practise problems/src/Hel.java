@@ -5,7 +5,9 @@ public class Hel {
         int y = 3;
 
         int sum = x + y;
+        int sub =  - y;
         System.out.println(sum);
+        System.out.println(sub);
 
     }
 }
