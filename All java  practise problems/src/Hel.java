@@ -7,13 +7,14 @@ public class Hel {
         int sum = x + y;
         int sub = x - y;
         int div = x % y;
-        int rem = x / y;
+        int rem = x / y; // 7
 
 
         System.out.println(sum);
         System.out.println(sub);
         System.out.println(div);
         System.out.println(rem);
+        System.out.println(2 + 2);
 
     }
 }
