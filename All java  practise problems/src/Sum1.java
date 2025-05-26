@@ -7,6 +7,7 @@ public class Sum1 {
         System.out.println(x * y);
         System.out.println( x -y );
         System.out.println( x / y);
+        System.out.println("Hell this is sum , addition, subtraction, dieivision , klmultiople");
 
     }
 }
