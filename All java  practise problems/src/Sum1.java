@@ -10,5 +10,8 @@ public class Sum1 {
         System.out.println("helwjsldfsd");
         System.out.println("Hell this is sum , addition, subtraction, dieivision , klmultiople");
 
+        System.out.println("helwjsldfsd");
+        System.out.println("Hell this is sum , addition, subtraction, dieivision , klmultiople");
+
     }
 }
