@@ -8,6 +8,7 @@ public class Sum1 {
         System.out.println( x -y );
         System.out.println( x / y);
         System.out.println("helwjsldfsd");
+        System.out.println("hello moshis location track");
         System.out.println("Hell this is sum , addition, subtraction, dieivision , klmultiople");
 
         System.out.println("helwjsldfsd");
