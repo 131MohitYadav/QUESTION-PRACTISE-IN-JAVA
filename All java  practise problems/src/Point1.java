@@ -12,12 +12,17 @@ public class Point1 {
 
         x = 2;
         y = 3;
+        a = 23;
+        b = 23;
 
         System.out.println("default constructor is called");
     }
     void showData(){
         System.out.println("X is: " + x);
         System.out.println("Y is: " + y);
+    }
+    void addData(){
+        System.out.println("Addition of a and b: " + ( a + b));
     }
     void Mul(){
         System.out.println("Multiplication: " + (x * y));
