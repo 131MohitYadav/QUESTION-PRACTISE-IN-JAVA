@@ -26,6 +26,10 @@ public class Point1 {
     void Sub(){
         System.out.println("Subtraction is: " +  ( x - y));
     }
+    void div(){
+        sout
+
+    }
     public static void main(String args[]){
         // create new object of class
         Point1 p1 = new Point1();
