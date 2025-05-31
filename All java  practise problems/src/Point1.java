@@ -5,6 +5,8 @@ public class Point1 {
     // member data
     int x;
     int y;
+    int a , b;
+
 
     public Point1(){
 
