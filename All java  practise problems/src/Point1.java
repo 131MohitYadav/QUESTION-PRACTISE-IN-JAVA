@@ -27,7 +27,7 @@ public class Point1 {
         System.out.println("Subtraction is: " +  ( x - y));
     }
     void div(){
-        sout
+        System.out.println("Division: " + ( x / y) );
 
     }
     public static void main(String args[]){
