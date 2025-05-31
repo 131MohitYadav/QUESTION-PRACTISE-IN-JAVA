@@ -42,6 +42,7 @@ public class Point1 {
         Point1 p1 = new Point1();
         Point1 p2 = new Point1();
         p1.showData();
+        p1.addData();
         Point1 p3 = new Point1();
         p3.Mul();
         p3.Add();
