@@ -38,5 +38,6 @@ public class Point1 {
         Point1 p3 = new Point1();
         p3.Mul();
         p3.Add();
+        p3.div();
     }
 }
