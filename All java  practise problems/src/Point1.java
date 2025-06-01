@@ -37,6 +37,7 @@ public class Point1 {
     }
     void div(){
         System.out.println("Division: " + ( x / y) );
+        System.out.println("divison of a and b : " + ( a / b));
 
     }
 
