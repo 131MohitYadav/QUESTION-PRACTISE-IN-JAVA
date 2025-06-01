@@ -26,6 +26,7 @@ public class Point1 {
     }
     void Mul(){
         System.out.println("Multiplication: " + (x * y));
+        System.out.println("Multiplicate of a and b: " + ( a  * b));
     }
     void Add(){
         System.out.println("Addition is: " + ( x + y));
@@ -37,6 +38,7 @@ public class Point1 {
         System.out.println("Division: " + ( x / y) );
 
     }
+
     public static void main(String args[]){
         // create new object of class
         Point1 p1 = new Point1();
