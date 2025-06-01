@@ -33,6 +33,7 @@ public class Point1 {
     }
     void Sub(){
         System.out.println("Subtraction is: " +  ( x - y));
+        System.out.println("Subtraction is: " + ( a - b));
     }
     void div(){
         System.out.println("Division: " + ( x / y) );
