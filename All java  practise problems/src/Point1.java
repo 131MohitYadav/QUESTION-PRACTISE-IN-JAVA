@@ -43,7 +43,8 @@ public class Point1 {
 
     }
     void hello(){
-        System.out.println("Hello Moht Yadav");
+        System.out.println("Hello Moht Yadav ");
+        System.out.println("Helo whatas upp");
     }
 
     public static void main(String args[]){
