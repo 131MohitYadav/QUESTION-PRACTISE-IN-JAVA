@@ -45,6 +45,7 @@ public class Point1 {
     void hello(){
         System.out.println("Hello Moht Yadav ");
         System.out.println("Helo whatas upp");
+        System.out.println("Nothing to worry that");
     }
 
     public static void main(String args[]){
