@@ -42,6 +42,9 @@ public class Point1 {
         System.out.println( 4 * 2);
 
     }
+    void hello(){
+        System.out.println("Hello Moht Yadav");
+    }
 
     public static void main(String args[]){
         // create new object of class
