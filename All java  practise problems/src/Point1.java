@@ -51,6 +51,7 @@ public class Point1 {
     }
     void hi(){
         System.out.println("hii method called");
+        System.out.println("hii value; " + 3 * 32);
     }
 
     public static void main(String args[]){
