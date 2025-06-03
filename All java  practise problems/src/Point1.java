@@ -49,6 +49,9 @@ public class Point1 {
         System.out.println("Nothing to worry that");
         System.out.println(3 * 2 * 3);
     }
+    void hi(){
+        System.out.println("hii method called");
+    }
 
     public static void main(String args[]){
         // create new object of class
