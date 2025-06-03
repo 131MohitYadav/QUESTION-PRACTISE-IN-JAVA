@@ -63,5 +63,6 @@ public class Point1 {
         p3.Mul();
         p3.Add();
         p3.div();
+        p3.hi();
     }
 }
