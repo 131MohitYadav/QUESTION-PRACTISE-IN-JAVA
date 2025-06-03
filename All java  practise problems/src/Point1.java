@@ -23,6 +23,7 @@ public class Point1 {
     }
     void addData(){
         System.out.println("Addition of a and b: " + ( a + b));
+        System.out.println("Heljosf mosdf");
     }
     void Mul(){
         System.out.println("Multiplication: " + (x * y));
