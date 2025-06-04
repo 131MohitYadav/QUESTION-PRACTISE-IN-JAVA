@@ -56,6 +56,9 @@ public class Point1 {
         System.out.println("Hidden layer");
         System.out.println("Output layer");
     }
+    void  cnn(){
+        System.out.println("Convolution neural network");
+    }
 
     public static void main(String args[]){
         // create new object of class
