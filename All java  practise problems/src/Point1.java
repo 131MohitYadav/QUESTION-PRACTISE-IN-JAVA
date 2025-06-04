@@ -58,6 +58,7 @@ public class Point1 {
     }
     void  cnn(){
         System.out.println("Convolution neural network");
+        System.out.println("l1 and l2 and lasso and redge regulationatio");
     }
 
     public static void main(String args[]){
