@@ -48,10 +48,12 @@ public class Point1 {
         System.out.println("Helo whatas upp");
         System.out.println("Nothing to worry that");
         System.out.println(3 * 2 * 3);
+        System.out.println("input layer");
     }
     void hi(){
         System.out.println("hii method called");
         System.out.println("hii value; " + 3 * 32);
+        System.out.println("Hidden layer");
     }
 
     public static void main(String args[]){
