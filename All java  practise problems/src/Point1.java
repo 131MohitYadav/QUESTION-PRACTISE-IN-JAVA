@@ -54,6 +54,7 @@ public class Point1 {
         System.out.println("hii method called");
         System.out.println("hii value; " + 3 * 32);
         System.out.println("Hidden layer");
+        System.out.println("Output layer");
     }
 
     public static void main(String args[]){
