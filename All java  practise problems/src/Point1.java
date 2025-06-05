@@ -59,6 +59,7 @@ public class Point1 {
     void  cnn(){
         System.out.println("Convolution neural network");
         System.out.println("l1 and l2 and lasso and redge regulationatio");
+        System.out.println("Negative value convert to spartiist and computeration faster solve problem of gradient vanishing");
     }
 
     public static void main(String args[]){
@@ -72,5 +73,6 @@ public class Point1 {
         p3.Add();
         p3.div();
         p3.hi();
+        p3.cnn();
     }
 }

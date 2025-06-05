@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class computernetwork {
+public class computernetwork {
+
+    public static void main ( String args[]){
+
+    }
 }
