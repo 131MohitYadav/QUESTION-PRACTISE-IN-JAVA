@@ -6,6 +6,7 @@ public class computernetwork {
                 "source port number");
         System.out.println("tcp transaction  control protocol");
         System.out.println(" Ip full form -> internet protocol");
+        System.out.println("TCP -> Transcation control protocol");
 
 
     }
