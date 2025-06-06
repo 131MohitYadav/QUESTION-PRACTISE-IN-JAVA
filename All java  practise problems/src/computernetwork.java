@@ -8,6 +8,7 @@ public class computernetwork {
         System.out.println(" Ip full form -> internet protocol");
         System.out.println("TCP -> Transcation control protocol");
         System.out.println("ICMP-> Internet control protocol message");
+        System.out.println("subnet mask  and class of network -> class a  class b  , class c class d class e");
 
 
     }
