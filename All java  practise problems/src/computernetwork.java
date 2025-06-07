@@ -11,6 +11,7 @@ public class computernetwork {
         System.out.println("subnet mask  and class of network -> class a  class b  , class c class d class e");
         System.out.println("Netid and hostid");
         System.out.println("helo packets , frames");
+        System.out.println("255: 255 : 255 : 117");
 
     }
 }
