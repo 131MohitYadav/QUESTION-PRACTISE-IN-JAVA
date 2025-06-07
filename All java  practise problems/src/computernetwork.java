@@ -14,6 +14,7 @@ public class computernetwork {
         System.out.println("255: 255 : 255 : 117");
         System.out.println("logial address or ip adderess or physical data arp packet query");
         System.out.println("source to destination address");
+        System.out.println("bit and bitstuffing add 0 's if 5 consecutive 1 are occur");
 
     }
 }
