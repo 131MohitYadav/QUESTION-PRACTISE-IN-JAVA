@@ -13,6 +13,7 @@ public class computernetwork {
         System.out.println("helo packets , frames");
         System.out.println("255: 255 : 255 : 117");
         System.out.println("logial address or ip adderess or physical data arp packet query");
+        System.out.println("source to destination address");
 
     }
 }
