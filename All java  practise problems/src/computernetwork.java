@@ -10,6 +10,7 @@ public class computernetwork {
         System.out.println("ICMP-> Internet control protocol message");
         System.out.println("subnet mask  and class of network -> class a  class b  , class c class d class e");
         System.out.println("Netid and hostid");
+        System.out.println("helo packets , frames");
 
     }
 }
