@@ -17,6 +17,7 @@ public class computernetwork {
         System.out.println("bit and bitstuffing add 0 's if 5 consecutive 1 are occur");
         System.out.println("cs - 602");
         System.out.println("CONGESTION AND CONTENTION");
+        System.out.println("ALOHA -> Advocate of LINUX  OF HAWAII ASSOCIATION");
 
     }
 }
