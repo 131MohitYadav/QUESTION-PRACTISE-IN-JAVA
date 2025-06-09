@@ -24,6 +24,7 @@ public class computernetwork {
         System.out.println("fragmentation and reassembly");
         System.out.println("electorinc mailing , composition , transifer , displaying , dispoinsing" +
                 "");
+        System.out.println("user agent and transfer agent");
 
 
     }
