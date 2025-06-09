@@ -22,6 +22,8 @@ public class computernetwork {
                 "and freuqence 200 and 260 mh  co-asxia cable  cooper core insulteing materail and fibre optical cable");
         System.out.println("TOPOLOGY -> mesh , star , tree , bus , ring topology ");
         System.out.println("fragmentation and reassembly");
+        System.out.println("electorinc mailing , composition , transifer , displaying , dispoinsing" +
+                "");
 
 
     }
