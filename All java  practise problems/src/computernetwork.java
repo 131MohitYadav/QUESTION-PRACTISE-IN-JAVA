@@ -25,6 +25,7 @@ public class computernetwork {
         System.out.println("electorinc mailing , composition , transifer , displaying , dispoinsing" +
                 "");
         System.out.println("user agent and transfer agent");
+        System.out.println("speedy data transfier , buldk data , integreat message , carbona copies , ");
 
 
     }
