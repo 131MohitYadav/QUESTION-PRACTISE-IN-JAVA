@@ -26,7 +26,7 @@ public class computernetwork {
                 "");
         System.out.println("user agent and transfer agent");
         System.out.println("speedy data transfier , buldk data , integreat message , carbona copies , ");
-
+        System.out.println("to way measure computer newtwork -> bandwidth and latency or delay");
 
     }
 }
