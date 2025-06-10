@@ -29,6 +29,8 @@ public class computernetwork {
         System.out.println("to way measure computer newtwork -> bandwidth and latency or delay");
         System.out.println("imortanc of computer newtork -> To share cmputer file " +
                 "share computer equeipemnt " +
+                "enable computer equipment with communicate" +
+                "improve computer peformamce of adata and accuracy " +
                 "");
         System.out.println(" latency -> propogation time  distance/ prppogation speed  and transimissin time  membersize data / bandwidth and quueueing time ");
     }
