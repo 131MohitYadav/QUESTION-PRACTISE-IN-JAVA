@@ -38,6 +38,7 @@ public class computernetwork {
         System.out.println("Integrated control message protocile");
         System.out.println("CSMA -> carrier sense mediume Access");
         System.out.println("CSMA/CS -> collison Avoidance");
+        System.out.println("CSMA/CD -> Collison Detection");
 
     }
 
