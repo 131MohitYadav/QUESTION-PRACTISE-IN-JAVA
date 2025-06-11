@@ -36,6 +36,8 @@ public class computernetwork {
         System.out.println(" latency -> propogation time  distance/ prppogation speed  and transimissin time  membersize data / bandwidth and quueueing time ");
 
         System.out.println("Integrated control message protocile");
+        System.out.println("CSMA -> carrier sense mediume Access");
+
     }
 
 }
