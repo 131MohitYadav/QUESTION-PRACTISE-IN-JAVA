@@ -32,8 +32,10 @@ public class computernetwork {
                 "enable computer equipment with communicate" +
                 "improve computer peformamce of adata and accuracy " +
                 "reduce cost of data transfer " +
-                "high realiabligity");
+                "high realiabligity+");
         System.out.println(" latency -> propogation time  distance/ prppogation speed  and transimissin time  membersize data / bandwidth and quueueing time ");
+
+        System.out.println("Integrated control message protocile");
     }
 
 }
