@@ -18,7 +18,8 @@ public class CompilerDesign {
                 "Ad-hoc polymeric" +
                 "parametric polymeric" +
                 "Incluse ploymeric" +
-                "coericon ploye ");
+                "coericon ployemeric ");
+        System.out.println("structure equivalence");
 
     }
 }
