@@ -13,6 +13,9 @@ public class CompilerDesign {
                 "phrase  levele" +
                 "error production" +
                 "globsl correction");
+        System.out.println("typpe of polymeric function" +
+                "there are 4 types" +
+                "");
 
     }
 }
