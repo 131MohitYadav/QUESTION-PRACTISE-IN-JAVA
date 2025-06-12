@@ -15,7 +15,10 @@ public class CompilerDesign {
                 "globsl correction");
         System.out.println("typpe of polymeric function" +
                 "there are 4 types" +
-                "");
+                "Ad-hoc polymeric" +
+                "parametric polymeric" +
+                "Incluse ploymeric" +
+                "coericon ploye ");
 
     }
 }
