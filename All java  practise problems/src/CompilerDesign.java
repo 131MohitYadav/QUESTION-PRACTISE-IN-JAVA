@@ -19,7 +19,18 @@ public class CompilerDesign {
                 "parametric polymeric" +
                 "Incluse ploymeric" +
                 "coericon ployemeric ");
-        System.out.println("structure equivalence");
+        System.out.println("structure equivalence" +
+                "functin seequiv(s1, t1); boolean " +
+                "begin:" +
+                "if s ant t are tsame basic type then " +
+                "return true" +
+                "else if s = array(s1,s2) and t - ar then" +
+                "return seewquiv(s1,s2) and see( t " +
+                "pointe  and s = s1 * s2 and " +
+                "retun sequeiv(s1,t1)" +
+                "else if point " +
+                "else retne false" +
+                "end;");
 
     }
 }
