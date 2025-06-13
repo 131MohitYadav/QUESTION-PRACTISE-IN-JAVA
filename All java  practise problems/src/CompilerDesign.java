@@ -34,7 +34,8 @@ public class CompilerDesign {
         System.out.println("SDD-> Syntax directed definition" +
                 "typoes of sdd " +
                 "1. s - attribute -> in s - attribut  is synatheseeis attribute  have" +
-                " in s - attribut syntehs evalues bottup up parsing and value of the parent nodes");
+                " in s - attribut syntehs evalues bottup up parsing and value of the parent nodes" +
+                "depend on the values and child nodes");
 
     }
 }
