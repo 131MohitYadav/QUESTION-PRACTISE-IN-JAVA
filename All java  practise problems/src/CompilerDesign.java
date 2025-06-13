@@ -32,6 +32,8 @@ public class CompilerDesign {
                 "else retne false" +
                 "end;");
         System.out.println("SDD-> Syntax directed definition" +
+                "typoes of sdd " +
+                "1. s - attribute -> in s - attribut  is synatheseeis attribute  have" +
                 "");
 
     }
