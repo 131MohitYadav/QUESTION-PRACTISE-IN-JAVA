@@ -31,6 +31,8 @@ public class CompilerDesign {
                 "else if point " +
                 "else retne false" +
                 "end;");
+        System.out.println("SDD-> Syntax directed definition" +
+                "");
 
     }
 }
