@@ -35,7 +35,9 @@ public class CompilerDesign {
                 "typoes of sdd " +
                 "1. s - attribute -> in s - attribut  is synatheseeis attribute  have" +
                 " in s - attribut syntehs evalues bottup up parsing and value of the parent nodes" +
-                "depend on the values and child nodes");
+                "depend on the values and child nodes" +
+                "sematinc action placen on the rightmost of rhs ");
+        System.out.println("Hello what are you doing best asfk");
 
     }
 }
