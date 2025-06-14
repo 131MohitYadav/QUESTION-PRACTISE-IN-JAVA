@@ -38,7 +38,8 @@ public class CompilerDesign {
                 "depend on the values and child nodes" +
                 "sematinc action placen on the rightmost of rhs ");
         System.out.println("Hello what are you doing best asfkkjkj" +
-                "RECURSION AND LEFT AND RIGHT RECURSION ");
+                "RECURSION AND LEFT AND RIGHT RECURSION " +
+                " recursive descent parser and non recusive descne tpares and ll(1) parser");
 
     }
 }
