@@ -37,7 +37,8 @@ public class CompilerDesign {
                 " in s - attribut syntehs evalues bottup up parsing and value of the parent nodes" +
                 "depend on the values and child nodes" +
                 "sematinc action placen on the rightmost of rhs ");
-        System.out.println("Hello what are you doing best asfk");
+        System.out.println("Hello what are you doing best asfkkjkj" +
+                "RECURSION AND LEFT AND RIGHT RECURSION ");
 
     }
 }
