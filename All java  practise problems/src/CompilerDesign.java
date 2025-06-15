@@ -43,7 +43,9 @@ public class CompilerDesign {
                 "synthessis attribjute and inherited attribute");
         System.out.println(" function preserving transformation " +
                 "commons subexpersion elemeintation" +
-                "");
+                "copy propogation" +
+                "compile time evalualtin" +
+                "deat code elemintaion");
 
     }
 }
