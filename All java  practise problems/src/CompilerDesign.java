@@ -46,7 +46,13 @@ public class CompilerDesign {
                 "copy propogation" +
                 "compile time evalualtin" +
                 "deat code elemintaion" +
-                "2. lOOp optimization");
+                "2. lOOp optimization" +
+                "code motion" +
+                "inductiion variable" +
+                "strength reduction");
+        System.out.println("improvin trandfmor compiler" +
+                "static , stack alocati, heap allocation");
+
 
     }
 }
