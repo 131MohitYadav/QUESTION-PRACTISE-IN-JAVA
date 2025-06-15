@@ -45,7 +45,8 @@ public class CompilerDesign {
                 "commons subexpersion elemeintation" +
                 "copy propogation" +
                 "compile time evalualtin" +
-                "deat code elemintaion");
+                "deat code elemintaion" +
+                "2. lOOp optimization");
 
     }
 }
