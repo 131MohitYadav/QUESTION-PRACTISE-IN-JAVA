@@ -41,6 +41,8 @@ public class CompilerDesign {
                 "RECURSION AND LEFT AND RIGHT RECURSION " +
                 " recursive descent parser and non recusive descne tpares and ll(1) parser" +
                 "synthessis attribjute and inherited attribute");
+        System.out.println(" function preserving transformation " +
+                "commons subexpersion elemeintation");
 
     }
 }
