@@ -52,6 +52,10 @@ public class CompilerDesign {
                 "strength reduction");
         System.out.println("improvin trandfmor compiler" +
                 "static , stack alocati, heap allocation");
+        System.out.println("Limitiatin of static" +
+                "the size of object ata and onsti conti sfsdf allocat of mer" +
+                "Rcoir proc anda costdynanamcially" +
+                "datad sutco k ;");
 
 
     }
