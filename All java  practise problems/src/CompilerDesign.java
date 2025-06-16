@@ -56,6 +56,7 @@ public class CompilerDesign {
                 "the size of object ata and onsti conti sfsdf allocat of mer" +
                 "Rcoir proc anda costdynanamcially" +
                 "datad sutco k ;");
+        System.out.println("Hello welcome to mackbook pro");
 
 
     }
