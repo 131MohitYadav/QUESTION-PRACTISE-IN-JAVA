@@ -5,5 +5,7 @@ public class macbook {
         System.out.println("What the fuck");
         System.out.println("hello hibernatte");
         System.out.println("Hello servlet");
+        System.out.println("College enrollement system");
+        System.out.println("with java backend");
     }
 }
