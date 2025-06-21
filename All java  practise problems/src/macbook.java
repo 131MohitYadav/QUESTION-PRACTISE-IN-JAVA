@@ -3,5 +3,7 @@ public class macbook {
         System.out.println("helo sirir");
         System.out.println("what are you doing");
         System.out.println("What the fuck");
+        System.out.println("hello hibernatte");
+        System.out.println("Hello servlet");
     }
 }
