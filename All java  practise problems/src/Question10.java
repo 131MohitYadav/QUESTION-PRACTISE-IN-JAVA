@@ -4,6 +4,8 @@ public class Question10 {
         int b = 23;
         int c = 25;
         int d = a + b + c /3;
+        int e = a * b + c;
         System.out.println("AVERAGE OF THREE NUMBER IS: " + d);
+        System.out.println("The value of E is : " + e);
     }
 }
