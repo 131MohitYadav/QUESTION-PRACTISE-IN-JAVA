@@ -9,5 +9,6 @@ public class Question10 {
         System.out.println("AVERAGE OF THREE NUMBER IS: " + d);
         System.out.println("The value of E is : " + e);
         System.out.println("The value of F is ; " + f);
+        System.out.println("Addition of number : ");
     }
 }
