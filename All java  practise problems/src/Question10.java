@@ -16,5 +16,7 @@ public class Question10 {
         System.out.println("Hello Mohit Yadav");
         System.out.println("What are you doing");
         System.out.println("hii MOhit Yada wha neteand ide adown version 24");
+        System.out.println("Wre a java to find oute primer number or factorization");
+        System.out.println("wreiat a progra to find palindrome string");
     }
 }
