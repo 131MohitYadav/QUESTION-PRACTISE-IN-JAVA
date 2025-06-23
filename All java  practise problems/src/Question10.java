@@ -19,5 +19,6 @@ public class Question10 {
         System.out.println("Wre a java to find oute primer number or factorization");
         System.out.println("wreiat a progra to find palindrome string");
         System.out.println("wrrit a progr to find highest number and lowerst ");
+        System.out.println("write to find the largest and second lages number");
     }
 }
