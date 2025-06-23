@@ -13,5 +13,7 @@ public class Question10 {
         System.out.println("Netbeans ide 8.2 version ");
         System.out.println("Jdk 1.8.2 hello version");
         System.out.println("After that install jar file  to setup Netbeans");
+        System.out.println("Hello Mohit Yadav");
+        System.out.println("What are you doing");
     }
 }
