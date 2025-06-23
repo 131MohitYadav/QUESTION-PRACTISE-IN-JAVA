@@ -15,5 +15,6 @@ public class Question10 {
         System.out.println("After that install jar file  to setup Netbeans");
         System.out.println("Hello Mohit Yadav");
         System.out.println("What are you doing");
+        System.out.println("hii MOhit Yada wha neteand ide adown version 24");
     }
 }
