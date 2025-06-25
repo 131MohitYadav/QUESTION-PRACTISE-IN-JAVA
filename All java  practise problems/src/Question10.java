@@ -14,5 +14,6 @@ public class Question10 {
         System.out.println("The value of g is: " + g);
         System.out.println("The value");
         System.out.println("Addition and subtractiong");
+        System.out.println("multiplication and division");
     }
 }
