@@ -12,5 +12,6 @@ public class Question10 {
         System.out.println("The value of F is ; " + f);
         System.out.println("Addition of number : ");
         System.out.println("The value of g is: " + g);
+        System.out.println("The value");
     }
 }
