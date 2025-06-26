@@ -9,12 +9,14 @@ public class Question10 {
         int g = a * b + c;
         int h = a / b * c + b - c;
         int i = a * c;
+        int j = a * b * c;
         System.out.println("AVERAGE OF THREE NUMBER IS: " + d);
         System.out.println("The value of E is : " + e);
         System.out.println("The value of F is ; " + f);
         System.out.println("Addition of number : ");
         System.out.println("The value of h is: " + h);
         System.out.println("The value of i is: " + i);
+        System.out.println("The value of j is: " + j);
 
     }
 }
