@@ -16,5 +16,6 @@ public class Question10 {
         System.out.println("Addition and subtractiong");
         System.out.println("multiplication and division");
         System.out.println("Nothing to add and sub and mul and divicd");
+        System.out.println("Hello Kia");
     }
 }
