@@ -11,11 +11,6 @@ public class Question10 {
         System.out.println("The value of E is : " + e);
         System.out.println("The value of F is ; " + f);
         System.out.println("Addition of number : ");
-        System.out.println("The value of g is: " + g);
-        System.out.println("The value");
-        System.out.println("Addition and subtractiong");
-        System.out.println("multiplication and division");
-        System.out.println("Nothing to add and sub and mul and divicd");
-        System.out.println("Hello Kia");
+
     }
 }
