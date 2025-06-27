@@ -11,6 +11,7 @@ public class Question23 {
 
 // Display area of the hexagon
         System.out.print("The area of the hexagon is: " + hexagonArea(s) + "\n");
+        System.out.println("end of the code");
     }
 
     public static double hexagonArea(double s){
