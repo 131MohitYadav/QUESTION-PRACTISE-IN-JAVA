@@ -6,6 +6,8 @@ public class Question1{
         int x = 3;
         int y = 3;
         System.out.println("Ths sum of : " + (x + y));
+        String s = "Mohit Yadav";
+        System.out.println(s);
 
 
     }
