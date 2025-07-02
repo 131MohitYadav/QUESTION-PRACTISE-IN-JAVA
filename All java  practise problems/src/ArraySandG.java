@@ -11,5 +11,6 @@ public class ArraySandG {
         }
 
         System.out.println("The greatest Element: " + max);
+        System.out.println("End of the gREatest Elements No more greathes element");
     }
 }
