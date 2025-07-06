@@ -26,6 +26,7 @@ public class ArrayBinary {
         // ye hmm esleye user kr rahi taki digit print lsb to msb
         for (  i = i-1; i >= 0; i--){
             System.out.print("\t"+arr[i]);
+            System.out.println("All Binary number is Here");
         }
 
 
