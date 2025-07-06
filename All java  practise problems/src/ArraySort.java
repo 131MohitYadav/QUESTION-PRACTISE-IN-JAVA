@@ -22,6 +22,7 @@ public static void main(String args [ ]){
     }
     else{
         System.out.println("No Array is not sorted");
+        System.out.println("Yes Array is roted");
 
     }
 
