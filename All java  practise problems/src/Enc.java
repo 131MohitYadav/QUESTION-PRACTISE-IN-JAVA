@@ -8,6 +8,9 @@ public class Enc {
         eg.setEnroll("025142");
         System.out.println("Name is : " + eg.getName());
         System.out.println("Enroll is: " + eg.getEnroll());
+        System.out.println("hello MOhit Yadav");
+
+
 
 
     }
