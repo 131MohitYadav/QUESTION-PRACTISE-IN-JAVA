@@ -9,4 +9,12 @@ public class EncapsulationGetter {
     public String getEnroll(){
         return enroll;
     }
+
+    public void setName( String name){
+        this.name = name;
+
+    }
+    public void setEnroll(String enroll){
+        this.enroll = enroll;
+    }
 }
