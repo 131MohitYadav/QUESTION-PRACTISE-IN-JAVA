@@ -23,6 +23,8 @@ public class Array3 {
         System.out.println(enrollno[1]);
         System.out.println(enrollno[23]);
         System.out.println("Helo ohoid");
+        System.out.println("NOthign to in array list ");
+        System.out.println("enumeration  only pefor read operation");
 
     }
 }
