@@ -22,6 +22,7 @@ public class Array3 {
         System.out.println(rollno[3]);
         System.out.println(enrollno[1]);
         System.out.println(enrollno[23]);
+        System.out.println("Helo ohoid");
 
     }
 }
