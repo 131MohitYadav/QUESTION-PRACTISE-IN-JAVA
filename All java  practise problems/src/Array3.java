@@ -25,6 +25,8 @@ public class Array3 {
         System.out.println("Helo ohoid");
         System.out.println("NOthign to in array list ");
         System.out.println("enumeration  only pefor read operation");
+        System.out.println("Iteraotor only perfomf read and remove operation legacy or NOn Legacy  class");
+        System.out.println();
 
     }
 }
