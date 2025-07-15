@@ -10,8 +10,6 @@ public class Array3 {
         rollno[0] = 101;
         rollno[1] = 102;
         rollno[3] = 103;
-        enrollno[1] = 12456;
-        rollno[23] = 232;
 
 
 
