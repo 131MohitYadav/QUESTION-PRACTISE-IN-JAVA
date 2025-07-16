@@ -8,5 +8,7 @@ public class Array {
         int x = [23, 23 , 23 , 23];
         int y = [23 , 23, 23, 2];
         System.out.println(x);
+        System.out.println(rollno[23]);
+        System.out.println(rollno[23]);
     }
 }
