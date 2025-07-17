@@ -8,6 +8,8 @@ public class Array {
         System.out.println(rollno[23]);
         System.out.println(rollno[23]);
         System.out.println(rollno[23]);
+        System.out.println(hello[23]);
+
 
 
     }
