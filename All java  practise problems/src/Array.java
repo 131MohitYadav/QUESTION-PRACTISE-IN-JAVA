@@ -13,6 +13,7 @@ public class Array {
         System.out.println(hello[2]);
         System.out.println("hello Mohjit ");
         System.out.println("helajdfsa nothe ing ");
+        System.out.println("nothing to worry ");
 
 
 
