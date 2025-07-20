@@ -11,6 +11,7 @@ public class Array {
         System.out.println(hello[23]);
         System.out.println(hello[2]);
         System.out.println(hello[2]);
+        System.out.println("hello Mohjit ");
 
 
 
