@@ -10,6 +10,7 @@ public class ArraylistReverse {
         list.add(3);
         list.add(4);
         list.add(5);
+        list.add(2);
 
 
         for(int i = list.size() - 1 ; i >= 0; i--){
