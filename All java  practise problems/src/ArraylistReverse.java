@@ -13,8 +13,10 @@ public class ArraylistReverse {
         list.add(2);
 
 
+
         for(int i = list.size() - 1 ; i >= 0; i--){
             System.out.print(list.get(i) + " ");
+            System.out.println("all array list show here");
         }
     }
 }
