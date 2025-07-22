@@ -16,6 +16,7 @@ public class E1 {
         System.out.println("After excepting");
         System.out.println("Hello Mohit Yadav");
         System.out.println(d * a * b);
+        System.out.println("Planet spark nothin to worry that i 'm storn g");
 
     }
 
