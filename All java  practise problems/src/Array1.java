@@ -22,6 +22,7 @@ public static  void main (String args[]){
     System.out.println(enrollno[4]);
     System.out.println(enrollno[5]);
     System.out.println(enrollno[5]);
+    System.out.println(enrollno[7]);
 
 
   }
