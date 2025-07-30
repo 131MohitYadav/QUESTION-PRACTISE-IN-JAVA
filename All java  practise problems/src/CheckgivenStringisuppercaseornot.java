@@ -12,6 +12,7 @@ public class CheckgivenStringisuppercaseornot {
 
         System.out.println(s.toUpperCase().equals(s));
         System.out.println("Hell mohti aydaf");
+        System.out.println("hello mohit yadav");
     }
 
 }
