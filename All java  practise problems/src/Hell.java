@@ -15,6 +15,6 @@ public class Hell {
         System.out.println(sum);
         System.out.println(b);
         System.out.println("Hello MOhti Yadav");
-        System.out.println();
+        System.out.println(arr[1]);
     }
 }
