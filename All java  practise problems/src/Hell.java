@@ -6,7 +6,9 @@ public class Hell {
         System.out.println(s);
         int a = 23;
         int x = 2;
+        int b = 45;
         int sum = a + x;
         System.out.println(sum);
+        System.out.println(b);
     }
 }
