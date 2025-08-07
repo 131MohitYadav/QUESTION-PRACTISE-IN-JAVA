@@ -21,5 +21,6 @@ public class ArraylistMaximum {
         }
         System.out.println("MAX ELEMENT = " + max);
         System.out.println("hello Mohit Yadav");
+        System.out.println("Nothing to have");
 }
 }
