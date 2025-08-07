@@ -20,7 +20,6 @@ public class ArraylistMaximum {
             max = Math.max(max,list.get(i));
         }
         System.out.println("MAX ELEMENT = " + max);
-        System.out.println("hello Mohit Yadav");
-        System.out.println("Nothing to have");
+
 }
 }
