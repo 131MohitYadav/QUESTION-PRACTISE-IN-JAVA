@@ -24,6 +24,7 @@ public static void main(String args [ ]){
         System.out.println("No Array is not sorted");
 
     }
+    sc.close();
 
     }
 }
