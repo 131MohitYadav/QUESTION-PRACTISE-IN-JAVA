@@ -24,7 +24,7 @@ public static  void main (String args[]){
     System.out.println(enrollno[5]);
     System.out.println(enrollno[7]);
     System.out.println(enrollno[8]);
-    System.out.println("Helo MOhit Yadav ");
+
 
 
   }
