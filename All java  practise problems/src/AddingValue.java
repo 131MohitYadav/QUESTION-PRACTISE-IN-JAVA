@@ -7,6 +7,7 @@ public class AddingValue {
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER TWO VALUE: ");
         System.out.println("ENTER YOUR NAME: ");
+        System.out.println("ENTER YOUR SURNAME: ");
         BigDecimal bg1 = sc.nextBigDecimal();
         BigDecimal bg2 = sc.nextBigDecimal();
         System.out.println("Result is: " + bg1.subtract(bg2));
