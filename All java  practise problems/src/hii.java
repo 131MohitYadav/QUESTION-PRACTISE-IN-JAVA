@@ -3,7 +3,10 @@ public class hii {
 
         int a = 23;
         int b = 23;
+        int  c = 23;
+        int d = 29;
         System.out.println( a + b);
+        System.out.println( c * d);
 
 
     }
