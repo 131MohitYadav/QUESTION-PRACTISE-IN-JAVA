@@ -17,5 +17,6 @@ public class AddingValue {
         System.out.println("Result is: " + bg1.subtract(bg2));
         System.out.println("The sum of : "  +  ( x + y));
         System.out.println("The multiplication is : " + ( a * b));
+        System.out.println("hello MOht Yadav");
     }
 }
