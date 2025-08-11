@@ -10,9 +10,12 @@ public class AddingValue {
         System.out.println("ENTER YOUR SURNAME: ");
         int x = 23;
         int y = 44;
+        int a = 2;
+        int b = 23;
         BigDecimal bg1 = sc.nextBigDecimal();
         BigDecimal bg2 = sc.nextBigDecimal();
         System.out.println("Result is: " + bg1.subtract(bg2));
         System.out.println("The sum of : "  +  ( x + y));
+        System.out.println("The multiplication is : " + ( a * b));
     }
 }
