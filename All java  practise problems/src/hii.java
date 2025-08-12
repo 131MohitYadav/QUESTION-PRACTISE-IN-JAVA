@@ -6,7 +6,7 @@ public class hii {
         int  c = 23;
         int d = 29;
         System.out.println( a + b);
-        System.out.println( c * d);
+        System.out.println( c * d + a  * b);
 
 
     }
