@@ -11,5 +11,6 @@ public class BitwiseAnd {
         c = 2 | 4;
         z = x & y;
         System.out.println(z);
+        System.out.println(c);
     }
 }
