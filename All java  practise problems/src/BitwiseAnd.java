@@ -12,8 +12,11 @@ public class BitwiseAnd {
         z = x & y;
         d = x + y;
 
+        int w =  x + y + a + b + c;
+
         System.out.println(z);
         System.out.println(c);
         System.out.println(d);
+        System.out.println(w);
     }
 }
