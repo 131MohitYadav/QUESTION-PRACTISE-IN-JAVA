@@ -11,5 +11,8 @@ public class Op1 {
         a = a ^ b;
         b = a ^ b;
         a = a ^ b;
+
+        System.out.println("After swapping: ");
+        System.out.println("A =  " + a + "B = " + b);
     }
 }
