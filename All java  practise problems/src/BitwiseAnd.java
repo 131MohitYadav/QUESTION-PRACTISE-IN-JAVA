@@ -11,6 +11,7 @@ public class BitwiseAnd {
         c = 2 | 4;
         z = x & y;
         d = x + y;
+        int lm = a * b + x * y;
 
         int w =  x + y + a + b + c;
 
@@ -18,5 +19,6 @@ public class BitwiseAnd {
         System.out.println(c);
         System.out.println(d);
         System.out.println(w);
+        System.out.println(lm);
     }
 }
