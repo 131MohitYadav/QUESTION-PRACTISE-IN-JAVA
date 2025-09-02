@@ -6,5 +6,10 @@ public class Op1 {
         a = 23;
         b = 32;
         System.out.println("Before Swapping: ");
+        System.out.println("A= " + a +"B = " +b);
+
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
     }
 }
