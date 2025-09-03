@@ -1,5 +1,7 @@
 public class Op1 {
 
+    // write a java program swap to number without using third varibale
+
     public static void main(String args[]){
 
         int a , b;
@@ -14,5 +16,6 @@ public class Op1 {
 
         System.out.println("After swapping: ");
         System.out.println("A =  " + a + "B = " + b);
+
     }
 }
