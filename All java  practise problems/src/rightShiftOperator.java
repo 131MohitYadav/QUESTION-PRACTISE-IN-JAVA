@@ -1,0 +1,13 @@
+public class rightShiftOperator {
+    public static void main(String args[]){
+
+        int x , y;
+        x = 128; // 128 / 2;
+        int a , b ;
+        a = 123;
+        b = a >> 1;
+        y = x >> 1;
+        System.out.println(y);
+        System.out.println(b);
+    }
+}
