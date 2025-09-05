@@ -1,6 +1,9 @@
 public class rightShiftOperator {
     public static void main(String args[]){
 
+
+        // right and left shift operator example
+
         int x , y;
         x = 128; // 128 / 2;
         int a , b ;
