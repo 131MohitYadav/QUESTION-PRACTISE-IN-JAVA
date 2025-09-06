@@ -6,16 +6,17 @@ public class rightShiftOperator {
 
         int x , y;
         x = 128; // 128 / 2;
-        int a , b ;
+        int a , b ; //
         a = 123;
         int w = 232;
         int z = w << 2;
         b = a >> 1;
         y = x >> 1;
         System.out.println(y);
-        System.out.println(b);
+        System.out.println(b); // 5
         System.out.println(z);
         System.out.println("Hello Mohit Yadav");
+        System.out.println("Nothing to worry that");
 
     }
 }
