@@ -15,5 +15,7 @@ public class rightShiftOperator {
         System.out.println(y);
         System.out.println(b);
         System.out.println(z);
+        System.out.println("Hello Mohit Yadav");
+
     }
 }
