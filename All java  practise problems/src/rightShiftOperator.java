@@ -20,6 +20,7 @@ public class rightShiftOperator {
         System.out.println("Hello Mohit Yadav");
         System.out.println("Nothing to worry that");
         System.out.println(sum);
+        System.out.println(multi);
 
     }
 }
