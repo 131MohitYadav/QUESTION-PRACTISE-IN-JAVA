@@ -12,11 +12,14 @@ public class rightShiftOperator {
         int z = w << 2;
         b = a >> 1;
         y = x >> 1;
+        int sum = x + y + z + y;
+        int multi = x * y ;
         System.out.println(y);
         System.out.println(b); // 5
         System.out.println(z);
         System.out.println("Hello Mohit Yadav");
         System.out.println("Nothing to worry that");
+        System.out.println(sum);
 
     }
 }
