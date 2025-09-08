@@ -18,8 +18,7 @@ public class rightShiftOperator {
         System.out.println(y);
         System.out.println(b); // 5
         System.out.println(z);
-        System.out.println("Hello Mohit Yadav");
-        System.out.println("Nothing to worry that");
+
         System.out.println(sum);
         System.out.println(multi);
         System.out.println(sub);
