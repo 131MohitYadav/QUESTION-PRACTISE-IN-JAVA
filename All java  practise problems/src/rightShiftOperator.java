@@ -14,6 +14,7 @@ public class rightShiftOperator {
         y = x >> 1;
         int sum = x + y + z + y;
         int multi = x * y ;
+        int sub = x - 7 + a * b;
         System.out.println(y);
         System.out.println(b); // 5
         System.out.println(z);
@@ -21,6 +22,7 @@ public class rightShiftOperator {
         System.out.println("Nothing to worry that");
         System.out.println(sum);
         System.out.println(multi);
+        System.out.println(sub);
 
     }
 }
