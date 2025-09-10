@@ -16,6 +16,7 @@ public class LogicalOrOperator {
         System.out.println( z);
         System.out.println(w);
         System.out.println( a & b);
+        System.out.println( a > b & b < c);
 
 
     }
