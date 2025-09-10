@@ -15,6 +15,7 @@ public class LogicalOrOperator {
         System.out.println( ! ( a > b ||  c< d));// false
         System.out.println( z);
         System.out.println(w);
+        System.out.println( a & b);
 
 
     }
