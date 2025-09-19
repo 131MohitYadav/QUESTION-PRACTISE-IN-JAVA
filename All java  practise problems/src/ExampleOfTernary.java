@@ -29,6 +29,7 @@ public class ExampleOfTernary {
 
         resutl = n >=18 ? "Eligible for voting " : "Not Eleigible for voting";
         System.out.println(resutl);
+        System.out.println("Hello Mohit Yadav");
 
     }
 }
