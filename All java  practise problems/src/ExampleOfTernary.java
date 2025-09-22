@@ -30,8 +30,11 @@ public class ExampleOfTernary {
         if ( n % 2 == 0){
             System.out.println("Even number");
         }
-        else{
+        else if{
             System.out.println("Odd number");
+        }
+        else{
+            System.out.println("negative number");
         }
 
 
