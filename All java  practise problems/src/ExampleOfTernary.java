@@ -30,20 +30,18 @@ public class ExampleOfTernary {
         if ( n % 2 == 0){
             System.out.println("Even number");
         }
-        else if{
+        else {
             System.out.println("Odd number");
         }
-        else{
-            System.out.println("negative number");
-        }
 
 
 
 
 
-        resutl = n >=18 ? "Eligible for voting " : "Not Eleigible for voting";
-        System.out.println(resutl);
-        System.out.println("Hello Mohit Yadav");
+
+        result = n >=18 ? "Eligible for voting " : "Not Eleigible for voting";
+        System.out.println(result);
+
 
     }
 }
