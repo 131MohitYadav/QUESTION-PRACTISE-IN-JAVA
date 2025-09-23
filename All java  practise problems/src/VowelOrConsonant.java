@@ -10,5 +10,13 @@ public class VowelOrConsonant {
         char c = sc.next().charAt(0);
 
 
+        if ( c == 'a' || c == 'e' || c == 'i' || c == '0' || c== 'u' || c == 'A' || c == 'E' || c == 'I' || c== 'O' || c == 'U'){
+            System.out.println("Vowels");
+        }
+        else {
+            System.out.println("Consonants");
+        }
+
+
     }
 }
