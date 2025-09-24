@@ -14,6 +14,8 @@ public class FactorialNumber {
 
         }
 
+
         System.out.println("Factorial of Given number: " + fact);
+
     }
 }
