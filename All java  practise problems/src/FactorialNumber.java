@@ -4,6 +4,7 @@ public class FactorialNumber {
     public static void main(String args[]){
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any number : ");
         int n = sc.nextInt();
 
         int fact = 1;
@@ -12,6 +13,6 @@ public class FactorialNumber {
             fact = fact * i;
 
         }
-        System.out.println("Factorial of Given number: ");
+        System.out.println("Factorial of Given number: " + fact);
     }
 }
