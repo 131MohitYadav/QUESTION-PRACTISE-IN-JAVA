@@ -16,11 +16,12 @@ public class DecimalCompare {
         n2 = Math.round(n2 * 1000.0) / 1000.0;
 
         if ( n1 == n2){
-            System.out.println("Ther are same");
+            System.out.println("They are same");
         }
         else{
             System.out.println("They are different");
         }
+
 
     }
 }
