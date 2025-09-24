@@ -5,7 +5,7 @@ public class NumberMonth {
 
         Scanner sc = new Scanner(System.in);
 
-        int  M , Y , daysmonth;
+        int  M , Y , daysInmonth;
         String MonthName;
 
         System.out.println("ENTER A MONTH NUMBER : ");
@@ -14,6 +14,20 @@ public class NumberMonth {
         Y = sc.nextInt();
 
         switch(M){
+
+            case 1:
+                 MonthName = "January";
+                 daysInmonth = 31;
+                 break;
+
+            case 2:
+                 MonthName = "February";
+                 if (( Y % 4 == 0 && Y % 100 != 0) || ( Y % 400 == 0)){
+                     daysInmonth = 29; // leap year
+            }
+                 else{
+                     daysInmonth = 28; // non leap year
+                 }
 
 
         }
