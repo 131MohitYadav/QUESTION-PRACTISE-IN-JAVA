@@ -14,7 +14,7 @@ public class SwitchEvenOrOdd {
             case 0:
                 System.out.println("Even Number");
                 break;
-            case  1:
+            default:
                 System.out.println("Odd Number");
                 break;
 
