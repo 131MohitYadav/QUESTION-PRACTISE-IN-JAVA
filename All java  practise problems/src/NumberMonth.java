@@ -28,7 +28,10 @@ public class NumberMonth {
                  else{
                      daysInmonth = 28; // non leap year
                  }
-
+            case 3:
+                MonthName = "March";
+                daysInmonth =  31;
+                break;
 
         }
     }
