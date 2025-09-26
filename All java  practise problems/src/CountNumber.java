@@ -6,7 +6,7 @@ public class CountNumber {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("enter a number : ");
+        System.out.println("Enter a number : ");
         int n = sc.nextInt();
 
         int count = 0;
