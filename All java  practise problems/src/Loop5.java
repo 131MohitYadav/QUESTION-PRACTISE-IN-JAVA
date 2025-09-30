@@ -5,6 +5,7 @@ public class Loop5 {
             System.out.print(i + " ");
 
 
+
         }
     }
 }
