@@ -21,6 +21,7 @@ public class Hel {
         System.out.println(3  * 9);
         System.out.println(3/3);
         System.out.println("Hello Rohit Yadav");
+        System.out.println("Hello Mohit");
 
 
     }

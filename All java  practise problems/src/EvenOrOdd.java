@@ -9,7 +9,7 @@ public class EvenOrOdd {
         }
         else {
             System.out.println("IT IS ODD NUMBER");
-            System.out.println("helo");
+
         }
         sc.close();
     }
