@@ -8,7 +8,7 @@ public class LowerandUppercase {
     public static void main(String args[]){
 
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Check Upper case and lower case of character");
         System.out.println("Enter any Character: ");
         char c  = sc.next().charAt(0);
 
