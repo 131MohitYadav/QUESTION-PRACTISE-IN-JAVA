@@ -13,6 +13,8 @@ public class Array {
         System.out.println(hello[2]);
         System.out.println(hello[2]);
         System.out.println(hii[23]);
+        System.out.println("Hello Mohit Yadav");
+        System.out.println("jai ho bole baba");
 
 
 
