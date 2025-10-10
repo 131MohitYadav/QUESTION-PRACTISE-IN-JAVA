@@ -15,7 +15,7 @@ public static  void main (String args[]){
 //
 //
 
-    int enrollno [] = new int[3];
+    int enrollno [] = new int[8];
     System.out.println(enrollno[0]);
     System.out.println(enrollno[2]);
     System.out.println(enrollno[3]);
