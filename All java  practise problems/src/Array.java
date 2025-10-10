@@ -4,6 +4,7 @@ public class Array {
 
         int rollno [] = new int [5];
         int hello[] = new int[2];
+        int hii[] = new int[3];
 
         System.out.println(rollno[23]);
         System.out.println(rollno[23]);
@@ -11,6 +12,7 @@ public class Array {
         System.out.println(hello[23]);
         System.out.println(hello[2]);
         System.out.println(hello[2]);
+        System.out.println(hii[23]);
 
 
 
