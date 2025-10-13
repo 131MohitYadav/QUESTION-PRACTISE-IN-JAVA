@@ -12,8 +12,8 @@ public class ReverseNum {
 
         int res = 0;
         while( n != 0){
-            int r = n % 10;//13
-            res = res * 10 + r;// 9 + 13;
+            int r = n % 10;//1
+            res = res * 10 + r;// 0 + 1;
             n = n/10;
 
         }
