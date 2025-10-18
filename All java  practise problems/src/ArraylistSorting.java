@@ -25,6 +25,6 @@ public class ArraylistSorting {
         // sorting in the descending order
         Collections.sort(list,Collections.reverseOrder());
         System.out.println("SORTING ARRAYLIST: " + list);
-        System.out.println("Hello Mohit Yadav");
+
     }
 }
