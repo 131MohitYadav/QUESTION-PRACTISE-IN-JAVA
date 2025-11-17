@@ -10,6 +10,7 @@ public class Array3 {
         rollno[0] = 101;
         rollno[1] = 102;
         rollno[3] = 103;
+        rollno[4] = 104;
 
 
 
@@ -20,6 +21,7 @@ public class Array3 {
         System.out.println(rollno[3]);
         System.out.println(enrollno[1]);
         System.out.println(enrollno[23]);
+        System.out.println(enrollno[24]);
 
     }
 }
