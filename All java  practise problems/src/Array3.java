@@ -14,11 +14,10 @@ public class Array3 {
         enrollno[3] = 232323;
         enrollno[4] = 233223;
         enrollno[8] = 232343;
+        enrollno[23] = 9888;
 
 
-
-
-
+        System.out.println(enrollno[23]);
         System.out.println(rollno[0]);
         System.out.println(rollno[1]);
         System.out.println(rollno[3]);
