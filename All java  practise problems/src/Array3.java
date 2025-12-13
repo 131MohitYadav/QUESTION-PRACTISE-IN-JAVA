@@ -15,6 +15,7 @@ public class Array3 {
         enrollno[4] = 233223;
         enrollno[8] = 232343;
         enrollno[23] = 9888;
+        enrollno[24] = 23;
 
 
         System.out.println(enrollno[23]);
@@ -26,6 +27,7 @@ public class Array3 {
         System.out.println(enrollno[3]);
         System.out.println(enrollno[4]);
         System.out.println(enrollno[8]);
+        System.out.println(enrollno[24]);
 
     }
 }
