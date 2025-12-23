@@ -7,6 +7,7 @@ public class Array3 {
         int rollno[] = new int[5];
         int enrollno[]  = new int[3];
 
+
         rollno[0] = 101;
         rollno[1] = 102;
         rollno[3] = 103;
@@ -16,9 +17,11 @@ public class Array3 {
         enrollno[8] = 232343;
         enrollno[23] = 9888;
         enrollno[24] = 23;
+        enrollno[233] = 234;
 
 
         System.out.println(enrollno[23]);
+        System.out.println(enrollno[234]);
         System.out.println(rollno[0]);
         System.out.println(rollno[1]);
         System.out.println(rollno[3]);
