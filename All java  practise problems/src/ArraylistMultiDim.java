@@ -13,6 +13,7 @@ public class ArraylistMultiDim {
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
         ArrayList<Integer> list3 = new ArrayList<>();
+        Arraylist<Integer> list4 = new Arraylist<>();
 
 
         for(int i = 0 ; i<=5; i++){
