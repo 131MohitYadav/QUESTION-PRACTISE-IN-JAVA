@@ -21,6 +21,7 @@ public class ArraylistMultiDim {
             list1.add(i * 1);
             list2.add(i * 2);
             list3.add(i * 3);
+            list4.add( i * 4);
         }
 
         Mainlist.add(list1);
