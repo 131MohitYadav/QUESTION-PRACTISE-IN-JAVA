@@ -29,6 +29,9 @@ public class ArrayReverse {
         System.out.println(" REVERSE ELEMENT: ");
         for ( int i = rev.length - 1 ; i >= 0; i-- ){
             System.out.println( rev[i] + " ");
+            System.out.println("Hello Mohit Yadav");
+
+
         }
     }
 }
