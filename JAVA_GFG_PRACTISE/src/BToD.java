@@ -15,7 +15,7 @@ public class BToD {
         }
         // printing binary array in reverse order
         for ( int j = i - 1; j >= 0; j--){
-            System.out.println(binaryNum[j]);
+            System.out.print(binaryNum[j]);
         }
     }
     public static void main(String[] args) {
