@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JAVA_GFG_PRACTISE/JAVA_GFG_PRACTISE.iml" filepath="$PROJECT_DIR$/JAVA_GFG_PRACTISE/JAVA_GFG_PRACTISE.iml" />
       <module fileurl="file://$PROJECT_DIR$/PRACTISE OF JAVA QUESTION.iml" filepath="$PROJECT_DIR$/PRACTISE OF JAVA QUESTION.iml" />
     </modules>
   </component>
