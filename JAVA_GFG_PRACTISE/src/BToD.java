@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BToD {
     // function to convet decimal to binary
     static void decToBinary(int n){
@@ -19,7 +21,7 @@ public class BToD {
         }
     }
     public static void main(String[] args) {
-        int n = 17;
+        Scanner sc = new Scanner(System.in);
         System.out.println("Decimal - " + n);
         System.out.print("Binary - ");
         decToBinary(n);
